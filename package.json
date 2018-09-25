@@ -1,0 +1,35 @@
+{
+  "name": "maif-framework-presentation-react-doc",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "~0.14.x || ^15.0.0 || ^16.0.0"
+  },
+  "devDependencies": {
+    "react": "^16.5.1",
+    "maif-framework-presentation": "git+http://sources-digitalfactory.maif.local/univers-maif/framework-presentation.git",
+    "framework-presentation-react": "git+http://sources-digitalfactory.maif.local/univers-maif/framework-presentation-react.git",
+    "babel-core": "^6.26.0",
+    "babel-env": "^2.4.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^4.17.1",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-merge": "^4.1.4",
+    "react-dom": "^16.5.1",
+    "react-scripts": "1.1.5",
+    "gulp": "3.9.1",
+    "gulp-hub": "0.8.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

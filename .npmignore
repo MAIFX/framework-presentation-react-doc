@@ -1,0 +1,12 @@
+# npmignore
+public
+presentation
+node_modules
+.babelrc
+.gitignore
+.eslintrc.js
+CONTRIBUTING.md
+webpack.*
+yarn.*
+sass/all.scss
+

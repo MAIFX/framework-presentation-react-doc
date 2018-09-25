@@ -1,0 +1,87 @@
+// Perso Maif.fr
+@import "maif-framework-presentation/sass/utilities";
+
+// Import Bootstrap for Sass ////////////////////////////////////////////////////////////
+// Core variables and mixins
+@import "bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
+// Reset and dependencies
+@import "bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/print";
+
+// Core CSS
+@import "bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/type";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/code";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/grid";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/tables";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/forms";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/buttons";
+
+// Components
+@import "bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/dropdowns";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/button-groups";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/input-groups";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/navs";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/navbar";
+
+// Components w/ JavaScript
+@import "bootstrap-sass/assets/stylesheets/bootstrap/modals";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/carousel";
+
+// Utility classes
+@import "bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+@import "bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+
+@import "bootstrap-select-sass/sass/variables";
+
+@import "compass";
+
+// Import Bootstrap for Sass ////////////////////////////////////////////////////////////
+
+// Import fonts
+@import "maif-framework-presentation/sass/fonts/arvo";
+@import "maif-framework-presentation/sass/fonts/maificon";
+@import "maif-framework-presentation/sass/fonts/schoolbell";
+
+// Import layout
+@import "maif-framework-presentation/sass/layout/base";
+@import "maif-framework-presentation/sass/layout/header";
+@import "maif-framework-presentation/sass/layout/footer";
+@import "maif-framework-presentation/sass/layout/container";
+@import "maif-framework-presentation/sass/layout/cols";
+@import "maif-framework-presentation/sass/layout/logos";
+@import "maif-framework-presentation/sass/layout/error";
+
+// Import components
+@import "maif-framework-presentation/sass/components/bootstrap/navbar";
+@import "maif-framework-presentation/sass/components/bootstrap/modal";
+@import "maif-framework-presentation/sass/components/bootstrap/tabs";
+@import "maif-framework-presentation/sass/components/bootstrap/affix";
+@import "maif-framework-presentation/sass/components/bootstrap/carousel";
+@import "maif-framework-presentation/sass/components/bootstrap/form";
+@import "maif-framework-presentation/sass/components/bootstrap/slider";
+
+@import "maif-framework-presentation/sass/components/blocks/block-attention";
+@import "maif-framework-presentation/sass/components/blocks/block-information";
+@import "maif-framework-presentation/sass/components/blocks/block-plus";
+@import "maif-framework-presentation/sass/components/blocks/block-solution";
+@import "maif-framework-presentation/sass/components/blocks/block-label";
+@import "maif-framework-presentation/sass/components/blocks/block-num";
+@import "maif-framework-presentation/sass/components/blocks/block-etape-vertical";
+@import "maif-framework-presentation/sass/components/blocks/block-liste-fichier";
+@import "maif-framework-presentation/sass/components/blocks/block-tarif";
+@import "maif-framework-presentation/sass/components/blocks/block-collapse-edito";
+@import "maif-framework-presentation/sass/components/blocks/block-offres-jeunes-enseignants";
+@import "maif-framework-presentation/sass/components/blocks/block-accordeon-centre";
+
+@import "maif-framework-presentation/sass/components/modules/modules";
+
+@import "maif-framework-presentation/sass/components/form/form";
+@import "maif-framework-presentation/sass/components/form/resultat-recherche-objet";
+
+@import "maif-framework-presentation/sass/components/conversationnel/conversationnel";
+
+@import "maif-framework-presentation/sass/components/button";

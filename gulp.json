@@ -1,0 +1,7 @@
+{
+    "gulpParams": {
+        "basedir": {
+            "srcPrj": "./public/resources/static"
+        }
+    }
+}
