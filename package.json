@@ -9,7 +9,7 @@
   "devDependencies": {
     "react": "^16.5.1",
     "maif-framework-presentation": "git+http://sources-digitalfactory.maif.local/univers-maif/framework-presentation.git",
-    "framework-presentation-react": "git+http://sources-digitalfactory.maif.local/univers-maif/framework-presentation-react.git",
+    "maif-framework-presentation-react": "git+http://sources-digitalfactory.maif.local/univers-maif/framework-presentation-react.git",
     "babel-core": "^6.26.0",
     "babel-env": "^2.4.1",
     "babel-loader": "^7.1.2",
