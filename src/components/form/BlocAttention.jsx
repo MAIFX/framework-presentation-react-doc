@@ -4,10 +4,10 @@ import BlocAttention from "maif-framework-presentation-react/lib/components/form
 
 function BlocAttentionExample() {
   return (
-    <div class="row">
-      <div class="col-md-8 col-sm-10 col-center">
-        <div class="col-form-container">
-          <form class="maif-form">
+    <div className="row">
+      <div className="col-md-8 col-sm-10 col-center">
+        <div className="col-form-container">
+          <form className="maif-form">
             <BlocAttention title="ATTENTION :">Message possible sur plusieurs lignes</BlocAttention>
           </form>
         </div>
