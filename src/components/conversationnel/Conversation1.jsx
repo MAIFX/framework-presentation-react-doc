@@ -1,17 +1,17 @@
 import React from "react";
 
-import Conversationnel from "framework-presentation-react/lib/components/conversationnel";
-import Conversation from "framework-presentation-react/lib/components/conversationnel/conversation";
-import Reinit from "framework-presentation-react/lib/components/conversationnel/conversation/Reinit";
-import Message from "framework-presentation-react/lib/components/conversationnel/conversation/message/Message";
-import Text from "framework-presentation-react/lib/components/conversationnel/conversation/message/Text";
-import Modify from "framework-presentation-react/lib/components/conversationnel/conversation/message/Modify";
-import Wait from "framework-presentation-react/lib/components/conversationnel/conversation/message/Wait";
-import LinkInformation from "framework-presentation-react/lib/components/conversationnel/conversation/message/LinkInformation";
-import LinkAction from "framework-presentation-react/lib/components/conversationnel/conversation/message/LinkAction";
-import ResultatRechercheObjet from "framework-presentation-react/lib/components/form/ResultatRechercheObjet";
-import DevisFormule from "framework-presentation-react/lib/components/conversationnel/conversation/message/DevisFormule";
-import Progress from "framework-presentation-react/lib/components/conversationnel/conversation/message/Progress";
+import Conversationnel from "maif-framework-presentation-react/lib/components/conversationnel";
+import Conversation from "maif-framework-presentation-react/lib/components/conversationnel/conversation";
+import Reinit from "maif-framework-presentation-react/lib/components/conversationnel/conversation/Reinit";
+import Message from "maif-framework-presentation-react/lib/components/conversationnel/conversation/message/Message";
+import Text from "maif-framework-presentation-react/lib/components/conversationnel/conversation/message/Text";
+import Modify from "maif-framework-presentation-react/lib/components/conversationnel/conversation/message/Modify";
+import Wait from "maif-framework-presentation-react/lib/components/conversationnel/conversation/message/Wait";
+import LinkInformation from "maif-framework-presentation-react/lib/components/conversationnel/conversation/message/LinkInformation";
+import LinkAction from "maif-framework-presentation-react/lib/components/conversationnel/conversation/message/LinkAction";
+import ResultatRechercheObjet from "maif-framework-presentation-react/lib/components/form/ResultatRechercheObjet";
+import DevisFormule from "maif-framework-presentation-react/lib/components/conversationnel/conversation/message/DevisFormule";
+import Progress from "maif-framework-presentation-react/lib/components/conversationnel/conversation/message/Progress";
 
 function Conversation1Example() {
   return (
