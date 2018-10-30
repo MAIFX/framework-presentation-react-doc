@@ -18,7 +18,7 @@ function Conversation1Example() {
     <Conversationnel>
       <Conversation>
         <Reinit href="/" />
-        <Message maif={true}>
+        <Message urlImg="/resources/static/img/rwd/conversationnel/chatbot.svg" maif={true}>
           <Text>
             <span>Message MAIF</span>
           </Text>
@@ -29,10 +29,10 @@ function Conversation1Example() {
           </Text>
           <Modify url="test">modifier</Modify>
         </Message>
-        <Message maif={true}>
+        <Message urlImg="/resources/static/img/rwd/conversationnel/chatbot.svg" maif={true}>
           <Wait />
         </Message>
-        <Message maif={true}>
+        <Message urlImg="/resources/static/img/rwd/conversationnel/chatbot.svg" maif={true}>
           <Text>
             <span>Message d'information (Popin)</span>
             <LinkInformation href="#modal-1" data-toggle="modal">
@@ -41,7 +41,7 @@ function Conversation1Example() {
           </Text>
           <Modify url="test">modifier</Modify>
         </Message>
-        <Message maif={true}>
+        <Message urlImg="/resources/static/img/rwd/conversationnel/chatbot.svg" maif={true}>
           <Text>
             <span>Message d'action (Popin)</span>
             <LinkAction picto="pdf">
@@ -49,7 +49,7 @@ function Conversation1Example() {
             </LinkAction>
           </Text>
         </Message>
-        <Message maif={true}>
+        <Message urlImg="/resources/static/img/rwd/conversationnel/chatbot.svg" maif={true}>
           <Text>
             <p>Tarif calculé selon les éléments suivants :</p>
             <ResultatRechercheObjet picto="bateau-moteur" reduit={true}>
@@ -73,22 +73,27 @@ function Conversation1Example() {
             </ResultatRechercheObjet>
           </Text>
         </Message>
-        <Message maif={true}>
+        <Message urlImg="/resources/static/img/rwd/conversationnel/chatbot.svg" maif={true}>
           <Text>
             <span>Je vous propose :</span>
             <DevisFormule tarif="18" title="CONTRAT XXXXX " vir="00" href="lien" unite="semaine" />
           </Text>
         </Message>
-        <Message maif={true}>
+        <Message urlImg="/resources/static/img/rwd/conversationnel/chatbot.svg" maif={true}>
           <Text>
             <span>Je vous propose :</span>
             <DevisFormule>petites et moyennes associations</DevisFormule>
           </Text>
         </Message>
-        <Message maif={true}>
+        <Message urlImg="/resources/static/img/rwd/conversationnel/chatbot.svg" maif={true}>
           <Text>
             <span>Veuillez patienter, je calcule votre tarif express</span>
             <Progress />
+          </Text>
+        </Message>
+        <Message maif={true} urlImg="/resources/static/img/rwd/conversationnel/chatbot.svg" result={true}>
+          <Text>
+            <span>En se basant sur les informations que vous avez saisies, voici ce que vous propose la Maif :</span>
           </Text>
         </Message>
       </Conversation>
