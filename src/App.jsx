@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import StepBarExample from "./components/form/StepBar";
 import BlocRetourAccueilExample from "./components/form/BlocRetourAccueil";
+import BlocAttentionExample from "./components/form/BlocAttention";
 import Conversation1Example from "./components/conversationnel/Conversation1";
 
 function Nav() {
@@ -22,6 +23,9 @@ function Nav() {
             <div className="col-sm-4">
               <Link to="/components/form/BlocRetourAccueil" className="btn btn-block">
                 Bloc retour-accueil
+              </Link>
+              <Link to="/components/form/blocAttention" className="btn btn-block">
+                Bloc attention
               </Link>
             </div>
           </div>
@@ -48,6 +52,7 @@ function App() {
         <Route exact path="" component={Nav} />
         <Route path="/components/form/stepbar" component={StepBarExample} />
         <Route path="/components/form/BlocRetourAccueil" component={BlocRetourAccueilExample} />
+        <Route path="/components/form/blocAttention" component={BlocAttentionExample} />
         <Route path="/components/conversationnel/conversation1" component={Conversation1Example} />
       </div>
     </Router>
