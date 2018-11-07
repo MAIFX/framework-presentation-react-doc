@@ -44,7 +44,7 @@ function Nav() {
 function App() {
   return (
     <Router>
-      <div>
+      <div className="container">
         <Route exact path="" component={Nav} />
         <Route path="/components/form/stepbar" component={StepBarExample} />
         <Route path="/components/form/blocAttention" component={BlocAttentionExample} />
