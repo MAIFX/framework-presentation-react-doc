@@ -4,7 +4,8 @@ import StepBarExample from "./components/form/StepBar";
 import BlocRetourAccueilExample from "./components/form/BlocRetourAccueil";
 import BlocAttentionExample from "./components/form/BlocAttention";
 import Conversation1Example from "./components/conversationnel/Conversation1";
-import WebcallbackTimerExample from "./components/WebcallbackTimer";
+import SimulateurExample from "./components/simulateur/SimulateurExample";
+// import WebcallbackTimerExample from "./components/WebcallbackTimer";
 
 function Nav() {
   return (
@@ -53,6 +54,16 @@ function Nav() {
             </div>
           </div>
         </div>
+        <div className="form-group-label">
+          <label className="label-title">Simulateur</label>
+          <div className="row">
+            <div className="col-sm-4">
+              <Link to="/components/simulateur" className="btn btn-block">
+                Composants Simulateur
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
@@ -67,7 +78,8 @@ function App() {
         <Route path="/components/form/BlocRetourAccueil" component={BlocRetourAccueilExample} />
         <Route path="/components/form/blocAttention" component={BlocAttentionExample} />
         <Route path="/components/conversationnel/conversation1" component={Conversation1Example} />
-        <Route path="/components/webcallbacktimer" component={WebcallbackTimerExample} />
+        <Route path="/components/simulateur" component={SimulateurExample} />
+        {/* <Route path="/components/webcallbacktimer" component={WebcallbackTimerExample} /> */}
       </div>
     </Router>
   );
