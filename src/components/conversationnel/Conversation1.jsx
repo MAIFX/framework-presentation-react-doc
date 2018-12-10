@@ -12,6 +12,7 @@ import LinkAction from "maif-framework-presentation-react/lib/components/convers
 import ResultatRechercheObjet from "maif-framework-presentation-react/lib/components/form/ResultatRechercheObjet";
 import DevisFormule from "maif-framework-presentation-react/lib/components/conversationnel/conversation/message/DevisFormule";
 import Progress from "maif-framework-presentation-react/lib/components/conversationnel/conversation/message/Progress";
+import Button from "maif-framework-presentation-react/lib/components/buttons/Button";
 
 function Conversation1Example() {
   return (
@@ -94,6 +95,27 @@ function Conversation1Example() {
         <Message maif={true} urlImg="/resources/static/img/rwd/conversationnel/chatbot.svg" result={true}>
           <Text>
             <span>En se basant sur les informations que vous avez saisies, voici ce que vous propose la Maif :</span>
+          </Text>
+        </Message>
+        <Message maif={true} urlImg="/resources/static/img/rwd/conversationnel/chatbot.svg">
+          <Text>
+            <span>
+              Désolé, mais compte tenu de votre situation,
+              <br className="hidden-xs" />
+              nous vous invitons à nous contacter pour que
+              <br className="hidden-xs" />
+              nous puissions vous proposer une
+              <br className="hidden-xs" />
+              offre tarifaire.
+            </span>
+            <div className="devis-formule-complement">
+              <Button block>être rappelé</Button>
+              <Button block>
+                appeler le 09 78 97 98 99
+                <br />
+                <small>appel non surtaxé, coût selon opérateur</small>
+              </Button>
+            </div>
           </Text>
         </Message>
       </Conversation>
