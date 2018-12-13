@@ -8,20 +8,26 @@ class WebcallbackTimerExample extends React.Component {
     this.state = {
       valueTimer: { minutes: "", seconds: "" }
     };
+    this.webcallback = React.createRef();
   }
+  onClick = () => {
+    this.webcallback.current.reset();
+  };
   render() {
     return (
       <div className="col-bg-container">
         <WebcallbackTimer
-          timeTotal={600}
-          timeLeft={300}
+          timeTotal={10}
+          timeLeft={10}
           callback={() => console.log("callback")}
           callbackTick={(minutes, seconds) => {
             this.setState({ valueTimer: { minutes, seconds } });
           }}
+          ref={this.webcallback}
         />
         <div>
           {this.state.valueTimer.minutes}:{this.state.valueTimer.seconds}
+          <button onClick={this.onClick}>Annuler l'appel</button>
         </div>
       </div>
     );
