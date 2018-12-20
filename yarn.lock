@@ -7867,7 +7867,7 @@ lru-queue@0.1:
 
 "maif-framework-presentation-react@git+http://sources-digitalfactory.maif.local/univers-maif/framework-presentation-react.git":
   version "0.1.5"
-  resolved "git+http://sources-digitalfactory.maif.local/univers-maif/framework-presentation-react.git#5dc61bb0c81dae043c8c7b895f9ca5d886b9ac50"
+  resolved "git+http://sources-digitalfactory.maif.local/univers-maif/framework-presentation-react.git#97552832474daeaab0dc699bf701b9f9f9994904"
   dependencies:
     classnames "^2.2.6"
     rc-slider "^8.6.3"
@@ -10026,7 +10026,7 @@ rc-animate@2.x:
     raf "^3.4.0"
     react-lifecycles-compat "^3.0.4"
 
-rc-slider@^8.6.3:
+rc-slider@^8.6.3, rc-slider@^8.6.4:
   version "8.6.4"
   resolved "https://registry.yarnpkg.com/rc-slider/-/rc-slider-8.6.4.tgz#b9d9000180f2b89bb71b58717753164b479fc75f"
   integrity sha512-CV2i2Ww6ib0EjFuBKvgjw3PgT6QwvWKC93iEpqPtrztZrx5wO9Iw//AUri4KHRqptW13AuBvFdEHovqLi6XFTw==
