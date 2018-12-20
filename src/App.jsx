@@ -5,7 +5,7 @@ import BlocRetourAccueilExample from "./components/form/BlocRetourAccueil";
 import BlocAttentionExample from "./components/form/BlocAttention";
 import Conversation1Example from "./components/conversationnel/Conversation1";
 import SimulateurExample from "./components/simulateur/SimulateurExample";
-// import WebcallbackTimerExample from "./components/WebcallbackTimer";
+import WebcallbackTimerExample from "./components/WebcallbackTimer";
 
 function Nav() {
   return (
@@ -79,7 +79,7 @@ function App() {
         <Route path="/components/form/blocAttention" component={BlocAttentionExample} />
         <Route path="/components/conversationnel/conversation1" component={Conversation1Example} />
         <Route path="/components/simulateur" component={SimulateurExample} />
-        {/* <Route path="/components/webcallbacktimer" component={WebcallbackTimerExample} /> */}
+        <Route path="/components/webcallbacktimer" component={WebcallbackTimerExample} />
       </div>
     </Router>
   );
