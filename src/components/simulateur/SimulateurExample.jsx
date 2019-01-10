@@ -4,22 +4,27 @@ import PropTypes from "prop-types";
 import SliderValeur from "maif-framework-presentation-react/lib/components/simulateur/sliderValeur";
 
 class SimulateurExample extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props);
 
-    this.state={
+    this.state = {
       value: 1
-    }
+    };
   }
 
   render() {
-    const testValues = ["5 ans", {label: "7 ans"}, {label: "10 ans", id: "7357"}];
+    const testValues = [{ label: "5 ans" }, { label: "7 ans" }, { label: "10 ans", id: "7357" }];
     return (
-      <React.Fragment>
-        <SliderValeur value={this.state.value} labels={testValues} onChange={value => this.setState({value})}/>
-        <hr />
-        <em>Value: </em><code>{JSON.stringify(testValues[this.state.value], 2)}</code>
-      </React.Fragment>
+      <div className="col-form-container">
+        <form className="maif-form">
+          <React.Fragment>
+            <SliderValeur value={this.state.value} labels={testValues} onChange={value => this.setState({ value })} />
+            <hr />
+            <em>Value: </em>
+            <code>{JSON.stringify(testValues[this.state.value], 2)}</code>
+          </React.Fragment>
+        </form>
+      </div>
     );
   }
 }
