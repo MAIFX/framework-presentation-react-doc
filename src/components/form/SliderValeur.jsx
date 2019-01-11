@@ -1,9 +1,7 @@
 import React from "react";
-import PropTypes from "prop-types";
+import SliderValeur from "maif-framework-presentation-react/lib/components/form/SliderValeur";
 
-import SliderValeur from "maif-framework-presentation-react/lib/components/simulateur/sliderValeur";
-
-class SimulateurExample extends React.Component {
+class SliderValeurExample extends React.Component {
   constructor(props) {
     super(props);
 
@@ -29,4 +27,4 @@ class SimulateurExample extends React.Component {
   }
 }
 
-export default SimulateurExample;
+export default SliderValeurExample;

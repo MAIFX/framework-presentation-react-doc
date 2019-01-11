@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import StepBarExample from "./components/form/StepBar";
 import BlocRetourAccueilExample from "./components/form/BlocRetourAccueil";
 import BlocAttentionExample from "./components/form/BlocAttention";
+import SliderValeurExample from "./components/form/SliderValeur";
 import Conversation1Example from "./components/conversationnel/Conversation1";
-import SimulateurExample from "./components/simulateur/SimulateurExample";
 import WebcallbackTimerExample from "./components/WebcallbackTimer";
 
 function Nav() {
@@ -31,16 +31,25 @@ function Nav() {
               <Link to="/components/form/stepbar" className="btn btn-block">
                 StepBar
               </Link>
+              <br />
             </div>
             <div className="col-sm-4">
               <Link to="/components/form/BlocRetourAccueil" className="btn btn-block">
                 Bloc retour-accueil
               </Link>
+              <br />
             </div>
             <div className="col-sm-4">
               <Link to="/components/form/blocAttention" className="btn btn-block">
                 Bloc attention
               </Link>
+              <br />
+            </div>
+            <div className="col-sm-4">
+              <Link to="/components/form/sliderValeur" className="btn btn-block">
+                Slider Valeur
+              </Link>
+              <br />
             </div>
           </div>
         </div>
@@ -50,16 +59,6 @@ function Nav() {
             <div className="col-sm-4">
               <Link to="/components/conversationnel/conversation1" className="btn btn-block">
                 Conversation 1
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="form-group-label">
-          <label className="label-title">Simulateur</label>
-          <div className="row">
-            <div className="col-sm-4">
-              <Link to="/components/simulateur" className="btn btn-block">
-                Composants Simulateur
               </Link>
             </div>
           </div>
@@ -77,8 +76,8 @@ function App() {
         <Route path="/components/form/stepbar" component={StepBarExample} />
         <Route path="/components/form/BlocRetourAccueil" component={BlocRetourAccueilExample} />
         <Route path="/components/form/blocAttention" component={BlocAttentionExample} />
+        <Route path="/components/form/sliderValeur" component={SliderValeurExample} />
         <Route path="/components/conversationnel/conversation1" component={Conversation1Example} />
-        <Route path="/components/simulateur" component={SimulateurExample} />
         <Route path="/components/webcallbacktimer" component={WebcallbackTimerExample} />
       </div>
     </Router>
